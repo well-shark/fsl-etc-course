@@ -5,7 +5,8 @@
 1. 下载 [VPN-nonVPN (ISCXVPN2016)](https://www.unb.ca/cic/datasets/vpn.htm) 数据集
 2. 处理数据得到流量载荷：[DeepTraffic/encrypted_traffic_classification/](https://github.com/echowei/DeepTraffic/tree/master/2.encrypted_traffic_classification)
 3. 将得到的载荷数据转化为日志文件：
-    ```json
+    ```
+    // 每行一条 json 日志
     ...
     {"pcap_name": "AIMchat1", "vpn_label": "non-vpn", "service_label": "chat", "data": [161, 178, ..., 124, 239]}
     ...
