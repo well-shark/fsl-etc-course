@@ -1,3 +1,11 @@
+<!--
+ * @Author: WellShark wellshark.net@gmail.com
+ * @Date: 2023-03-19 16:39:16
+ * @LastEditors: WellShark wellshark.net@gmail.com
+ * @LastEditTime: 2023-03-22 14:49:56
+ * @FilePath: /fsl-etc-course/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # 加密流量分类与应用课程示例 - 基于原型网络的小样本加密流量分类
 
 # From Scratch
@@ -12,7 +20,7 @@
     ...
     ```
 
-**或者使用已经处理好的数据 `iscx2016_vpn_payloadl7_784`**：
+**或者使用已经处理好的数据 [`iscx2016_vpn_payloadl7_784`](https://github.com/well-shark/fsl-etc-course)**：
 
 1. 解压 iscx2016_vpn.zip : `unzip iscx2016_vpn.zip`
 2. 拷贝 `iscx2016_vpn_payloadl7_784.log` 文件到项目根目录
